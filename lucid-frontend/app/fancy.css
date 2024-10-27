@@ -1,0 +1,3 @@
+.main:has(#fancy:hover) .main:not(#fancy:hover) {
+  opacity: 0.2;
+}
