@@ -231,7 +231,7 @@ class CustomVoiceoverScene(VoiceoverScene):
     logging.info(f"Manim execution completed in {manim_end_time - manim_start_time:.2f} seconds")
 
     # Find the generated video
-    video_quality = "480p15"  # This is based on the -ql flag. Use "1080p60" for -qh
+    video_quality = "1080p60"  # This is based on the -ql flag. Use "1080p60" for -qh and "480p15" for -ql
     video_dir = os.path.join("media", "videos", "generated_manim_code", video_quality)
     
     output_video_path = None
