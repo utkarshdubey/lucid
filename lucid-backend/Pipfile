@@ -9,8 +9,9 @@ python-dotenv = "*"
 pydantic = "*"
 setuptools = "*"
 manim-voiceover = {extras = ["gtts"], version = "*"}
-python-multipart = "*"
+python-multipart = "0.0.12"
 uvicorn = "*"
+fastapi = "*"
 
 [dev-packages]
 

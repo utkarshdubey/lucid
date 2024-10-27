@@ -39,15 +39,11 @@ export default function ThirdCard() {
           <div className="flex items-center gap-[9px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="none"
-              viewBox="0 0 16 16"
+              width="26"
+              height="24"
+              viewBox="0 0 24 24"
             >
-              <path
-                fill="currentColor"
-                d="M9.293 6.928L14.356 1h-1.2L8.761 6.147 5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05L9.292 6.928zM7.65 8.852l-.538-.775-4.28-6.167h1.842l3.454 4.977.538.775 4.491 6.47h-1.843L7.65 8.852z"
-              ></path>
+              <path d="M6.002 1.61L0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"></path>
             </svg>
             <span className="text-sm">Visit our Devpost</span>
           </div>

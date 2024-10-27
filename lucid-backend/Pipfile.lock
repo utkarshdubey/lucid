@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c2adc822e827b2dd2eee8973e6f1ebb23ef632afb3243916216546715d59d4df"
+            "sha256": "b4980723d25be8aa9814a565bff34feb2d6dbc2680015585db341eb905e12e2c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -182,6 +182,15 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==1.9.0"
+        },
+        "fastapi": {
+            "hashes": [
+                "sha256:8035e8f9a2b0aa89cea03b6c77721178ed5358e1aea4cd8570d9466895c0638c",
+                "sha256:c091c6a35599c036d676fa24bd4a6e19fa30058d93d950216cdc672881f6f7db"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.115.3"
         },
         "glcontext": {
             "hashes": [
@@ -1026,6 +1035,14 @@
             ],
             "markers": "python_version >= '2.7'",
             "version": "==3.5.3"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:9834fd799d1a87fd346deb76158668cfa0b0d56f85caefe8268e2d97c3468b62",
+                "sha256:fbc189474b4731cf30fcef52f18a8d070e3f3b46c6a04c97579e85e6ffca942d"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==0.41.2"
         },
         "svgelements": {
             "hashes": [

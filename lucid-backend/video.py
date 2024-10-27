@@ -213,7 +213,7 @@ class CustomVoiceoverScene(VoiceoverScene):
     
     try:
         result = subprocess.run(
-            ['manim', '-ql', '-o', output_file, manim_code_filename, '--renderer=opengl', '--write_to_movie', '--disable_caching'],
+            ['manim', '-qh', '-o', output_file, manim_code_filename, '--renderer=opengl', '--write_to_movie', '--disable_caching'],
             check=True,
             capture_output=True,
             text=True
